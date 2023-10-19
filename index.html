@@ -1,20 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tema4</title>
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
     <style>
-       
+        .custom-div {
+            height: 300px;
+
+        }
+
+        .circle {
+            width: 60px;
+            /* diametru */
+            height: 60px;
+            background-color: #717171;
+            border-radius: 50%;
+        }
+
+        .littleCircle {
+            width: 30px;
+            /* diametru */
+            height: 30px;
+            background-color: #717171;
+            border-radius: 50%;
+        }
+
+        .custom-dark {
+            background-color: #5e5e5e; 
+        }
     </style>
 </head>
+
 <body>
-  
-    
+
+    <div class="container mt-4">
+        <!-- menu -->
+        <div class="row">
+            <div class="col d-flex justify-content-between" style="font-size: 15px;">
+                <div class="logo-container">
+                    <img src="logo.avif" style="height: 50px; margin-top: -15px;">
+                </div>
+                <div class="d-flex">
+                    <div class="mx-2">HOME</div>
+                    <div class="mx-2">WHO WE ARE</div>
+                    <div class="mx-2">WHAT WE DO</div>
+                    <div class="mx-2">OUR WORK</div>
+                    <div class="mx-2">BLOG</div>
+                    <div class="ms-2">LET'S TALK</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- slide1 -->
+        <div class="d-flex justify-content-between mt-3">
+            <div class="border text-center custom-div">
+                <div class="d-flex align-items-center justify-content-center" style="height: 280px; width: 370px;">
+                    STRATEGY
+                </div>
+            </div>
+            <div class="border text-center custom-div">
+                <div class="d-flex align-items-center justify-content-center" style="height: 280px; width: 370px;">
+                    DESIGN
+                </div>
+            </div>
+            <div class="border text-center custom-div">
+                <div class="d-flex align-items-center justify-content-center" style="height: 280px; width: 370px;">
+                    TECHNOLOGY
+                </div>
+            </div>
+        </div>
+
+        <!-- slide2 -->
+        <div class="row mt-5">
+            <div class="col d-flex flex-column slider-height align-items-center justify-content-center">
+                <div>
+                    <h3 class="text-center">
+                        <b> Building brands for good </b>
+                    </h3>
+                </div>
+                <div>
+                    <h4 class="text-center">
+                        We cultivate fresh ideas to help create a sustainable
+                    </h4>
+                </div>
+                <div>
+                    <h4 class="text-center">
+                        and consistent brand for your business
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- slide3 -->
+        <div class="d-flex justify-content-between mt-5 mb-5 border">
+
+            <div class="col">
+                <div class="border text-center custom-div">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 280px; width: 370px;">
+                        OUR WORK
+                    </div>
+
+                    <div class="row mt-5">
+                        <div
+                            class="col d-flex flex-column slider-height align-items-center justify-content-center mb-5">
+                            <div>
+                                <h5 class="text-center">
+                                    <b> LET'S CREATE SOME- </b>
+                                </h5>
+                            </div>
+                            <div>
+                                <h5 class="text-center">
+                                    <b> THING TOGHETER </b>
+                                    </h4>
+                            </div>
+                            <div>
+                                <h6 class="text-center mt-3">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, quaerat excepturi
+                                    sed, reiciendis nisi aliquid incidunt pariatur.
+                                </h6>
+                            </div>
+                            <div>
+                                <div class="border d-flex align-items-center justify-content-center mt-4"
+                                    style="height: 30px; width: 130px;">
+                                    HELP
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col d-flex align-items-center " style="height: 580px; width: 370px;">
+
+                <div>
+                    <div class=" ms-5 mb-2 mt-2">
+                        OUR SERVICES
+                    </div>
+
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">Branding
+                        </div>
+                    </div>
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">Print Desing
+                        </div>
+                    </div>
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">Email
+                            Marketing</div>
+                    </div>
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">Infographics
+                        </div>
+                    </div>
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">Copywriting
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col d-flex align-items-center " style="height: 580px; width: 370px;">
+
+                <div class="mt-5">
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">Web Design
+                        </div>
+                    </div>
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">eCommerce
+                        </div>
+                    </div>
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">Organic SEO
+                        </div>
+                    </div>
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">Social Media
+                        </div>
+                    </div>
+                    <div class="circle ms-5 mb-5" style="position: relative;">
+                        <div style="position: absolute; left: 130%; top: 50%; transform: translateY(-50%);">Traffic
+                            Analysis</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- slide4 -->
+        <div class="d-flex justify-content-between mt-3 border align-items-center">
+            <div class="ms-4 mt-5">
+                <h5>
+                    <b> Fresh tips, straight to your inbox </b>
+                </h5>
+                <h6 class="mt-3 text-left">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, quaerat excepturi sed, reiciendis
+                    nisi aliquid incidunt pariatur.
+                </h6>
+                <div class="row">
+                    <div class="border d-flex align-items-center justify-content-center mt-2 ms-3"
+                        style="height: 30px; width: 220px;">
+                    </div>
+                    <div class="border custom-dark d-flex align-items-center justify-content-center mt-2 ms-1"
+                        style="height: 30px; width: 80px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="ms-4 mt-5">
+                <h5>
+                    <b> Follow our insightful chatter </b>
+                </h5>
+                <h6 class="mt-3 text-left">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, quaerat excepturi sed, reiciendis
+                    nisi aliquid incidunt pariatur.
+                </h6>
+
+
+                <div class="ms-1 row mt-3">
+                    <div class="littleCircle me-2"></div>
+                    <div class="littleCircle me-2"></div>
+                    <div class="littleCircle me-2"></div>
+                    <div class="littleCircle me-2"></div>
+                </div>
+            </div>
+
+            <div class="border text-center custom-div">
+                <div class="d-flex align-items-center justify-content-center" style="height: 300px; width: 370px;">
+                    map
+                </div>
+            </div>
+        </div>
+
+
 </body>
+
 </html>
